@@ -1,0 +1,311 @@
+0000.000 (0) Opened log file at time: Sat, 28 Aug 2021 07:39:47 +0000 on https://www.oceantp6.ga
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.60 WP: 5.8 PHP: 7.4.22 (fpm-fcgi, Linux ip-172-31-93-93 4.19.0-17-cloud-amd64 #1 SMP Debian 4.19.194-3 (2021-07-18) x86_64) MySQL: 10.3.31-MariaDB (max packet size=16777216) WPLANG: en_US Server: Apache/2.4.48 (Unix) OpenSSL/1.1.1d safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 5.8M | 4M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.005 (0) Free space on disk containing Updraft's temporary directory: 6454.2 MB
+0000.008 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.012 (0) Semaphore (fd, wp_options) being initialised
+0000.017 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.024 (0) Set semaphore last lock (fd) time to 2021-08-28 07:39:47
+0000.027 (0) Semaphore lock (fd) complete
+0000.034 (0) Backup run: resumption=0, nonce=698d9683567f, file_nonce=698d9683567f begun at=1630136387 (0s ago), job type=backup
+0000.037 (0) Scheduling a resumption (1) after 300 seconds (1630136687) in case this run gets aborted
+0000.060 (0) Checking if we have a zip executable available
+0000.063 (0) Testing: /usr/bin/zip
+0000.069 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.071 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.074 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.076 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.077 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.081 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.083 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.086 (0) Working binary zip found: /usr/bin/zip
+0000.091 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.093 (0) Creation of backups of directories: beginning
+0000.098 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0001.983 (0) Total entities for the zip file: 4228 directories, 13972 files (0 skipped as non-modified), 175 MB
+0001.991 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.994 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.997 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0002.001 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0002.003 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0002.006 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0002.009 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0002.011 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0002.014 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0002.018 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0002.020 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7.3 MB, 13972 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0002.932 (0) backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: size is now: 3.40 MB
+0002.935 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 1100 files added (on-disk size: 3461.5 KB)
+0002.938 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 1200 files added (on-disk size: 3461.5 KB)
+0002.942 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 1300 files added (on-disk size: 3461.5 KB)
+0002.945 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 1400 files added (on-disk size: 3461.5 KB)
+0002.948 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 1500 files added (on-disk size: 3461.5 KB)
+0002.951 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 1600 files added (on-disk size: 3461.5 KB)
+0002.954 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 1700 files added (on-disk size: 3461.5 KB)
+0002.958 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 1800 files added (on-disk size: 3461.5 KB)
+0002.961 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 1900 files added (on-disk size: 3461.5 KB)
+0002.963 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 2000 files added (on-disk size: 3461.5 KB)
+0002.965 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (21.6 MB, 13972 files batched, 1001 (2002) added so far); re-opening (prior size: 3461.5 KB)
+0004.385 (0) backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: size is now: 12.60 MB
+0004.393 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 2100 files added (on-disk size: 12923.1 KB)
+0004.399 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 2200 files added (on-disk size: 12923.1 KB)
+0004.403 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 2300 files added (on-disk size: 12923.1 KB)
+0004.407 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 2400 files added (on-disk size: 12923.1 KB)
+0004.411 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 2500 files added (on-disk size: 12923.1 KB)
+0004.415 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 2600 files added (on-disk size: 12923.1 KB)
+0004.420 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 2700 files added (on-disk size: 12923.1 KB)
+0004.424 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 2800 files added (on-disk size: 12923.1 KB)
+0004.428 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 2900 files added (on-disk size: 12923.1 KB)
+0004.433 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 3000 files added (on-disk size: 12923.1 KB)
+0004.435 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (9.9 MB, 13972 files batched, 1001 (3003) added so far); re-opening (prior size: 12923.1 KB)
+0005.343 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 3100 files added (on-disk size: 14530.8 KB)
+0005.347 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 3200 files added (on-disk size: 14530.8 KB)
+0005.351 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 3300 files added (on-disk size: 14530.8 KB)
+0005.355 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 3400 files added (on-disk size: 14530.8 KB)
+0005.358 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 3500 files added (on-disk size: 14530.8 KB)
+0005.362 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 3600 files added (on-disk size: 14530.8 KB)
+0005.366 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 3700 files added (on-disk size: 14530.8 KB)
+0005.369 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 3800 files added (on-disk size: 14530.8 KB)
+0005.372 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 3900 files added (on-disk size: 14530.8 KB)
+0005.376 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 4000 files added (on-disk size: 14530.8 KB)
+0005.378 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (14.9 MB, 13972 files batched, 1001 (4004) added so far); re-opening (prior size: 14530.8 KB)
+0006.353 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 4100 files added (on-disk size: 16489 KB)
+0006.357 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 4200 files added (on-disk size: 16489 KB)
+0006.361 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 4300 files added (on-disk size: 16489 KB)
+0006.364 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 4400 files added (on-disk size: 16489 KB)
+0006.368 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 4500 files added (on-disk size: 16489 KB)
+0006.372 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 4600 files added (on-disk size: 16489 KB)
+0006.376 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 4700 files added (on-disk size: 16489 KB)
+0006.380 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 4800 files added (on-disk size: 16489 KB)
+0006.384 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 4900 files added (on-disk size: 16489 KB)
+0006.388 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 5000 files added (on-disk size: 16489 KB)
+0006.390 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (4.7 MB, 13972 files batched, 1001 (5005) added so far); re-opening (prior size: 16489 KB)
+0007.096 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 5100 files added (on-disk size: 17489.5 KB)
+0007.099 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 5200 files added (on-disk size: 17489.5 KB)
+0007.103 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 5300 files added (on-disk size: 17489.5 KB)
+0007.106 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 5400 files added (on-disk size: 17489.5 KB)
+0007.118 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 5500 files added (on-disk size: 17489.5 KB)
+0007.121 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 5600 files added (on-disk size: 17489.5 KB)
+0007.125 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 5700 files added (on-disk size: 17489.5 KB)
+0007.126 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 5800 files added (on-disk size: 17489.5 KB)
+0007.130 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 5900 files added (on-disk size: 17489.5 KB)
+0007.134 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 6000 files added (on-disk size: 17489.5 KB)
+0007.136 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7.5 MB, 13972 files batched, 1001 (6006) added so far); re-opening (prior size: 17489.5 KB)
+0007.927 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 6100 files added (on-disk size: 19892.9 KB)
+0007.930 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 6200 files added (on-disk size: 19892.9 KB)
+0007.933 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 6300 files added (on-disk size: 19892.9 KB)
+0007.935 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 6400 files added (on-disk size: 19892.9 KB)
+0007.938 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 6500 files added (on-disk size: 19892.9 KB)
+0007.942 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 6600 files added (on-disk size: 19892.9 KB)
+0007.945 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 6700 files added (on-disk size: 19892.9 KB)
+0007.947 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 6800 files added (on-disk size: 19892.9 KB)
+0007.950 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 6900 files added (on-disk size: 19892.9 KB)
+0007.954 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 7000 files added (on-disk size: 19892.9 KB)
+0007.956 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (8.9 MB, 13972 files batched, 1001 (7007) added so far); re-opening (prior size: 19892.9 KB)
+0008.695 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 7100 files added (on-disk size: 21481.9 KB)
+0008.698 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 7200 files added (on-disk size: 21481.9 KB)
+0008.702 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 7300 files added (on-disk size: 21481.9 KB)
+0008.706 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 7400 files added (on-disk size: 21481.9 KB)
+0008.711 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 7500 files added (on-disk size: 21481.9 KB)
+0008.714 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 7600 files added (on-disk size: 21481.9 KB)
+0008.717 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 7700 files added (on-disk size: 21481.9 KB)
+0008.719 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 7800 files added (on-disk size: 21481.9 KB)
+0008.722 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 7900 files added (on-disk size: 21481.9 KB)
+0008.726 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 8000 files added (on-disk size: 21481.9 KB)
+0008.728 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (13.5 MB, 13972 files batched, 1001 (8008) added so far); re-opening (prior size: 21481.9 KB)
+0009.725 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 8100 files added (on-disk size: 23377.3 KB)
+0009.729 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 8200 files added (on-disk size: 23377.3 KB)
+0009.731 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 8300 files added (on-disk size: 23377.3 KB)
+0009.734 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 8400 files added (on-disk size: 23377.3 KB)
+0009.738 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 8500 files added (on-disk size: 23377.3 KB)
+0009.742 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 8600 files added (on-disk size: 23377.3 KB)
+0009.744 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 13972 files batched, 614 (8622) added so far); re-opening (prior size: 23377.3 KB)
+0011.226 (0) backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: size is now: 31.20 MB
+0011.232 (0) A useful amount of data was added after this amount of zip processing: 1.9 s (normalised: 1.9 s, rate: 13407.5 KB/s)
+0011.236 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.9096050262451, normalised_time=1.9093848392346, max_time=11.233150959015, data points known=1, old_max_bytes=26214400, new_max_bytes=92533565)
+0011.241 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 8700 files added (on-disk size: 31998.3 KB)
+0011.245 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 8800 files added (on-disk size: 31998.3 KB)
+0011.247 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 8900 files added (on-disk size: 31998.3 KB)
+0011.251 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 9000 files added (on-disk size: 31998.3 KB)
+0011.254 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 9100 files added (on-disk size: 31998.3 KB)
+0011.258 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 9200 files added (on-disk size: 31998.3 KB)
+0011.261 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 9300 files added (on-disk size: 31998.3 KB)
+0011.265 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 9400 files added (on-disk size: 31998.3 KB)
+0011.267 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 9500 files added (on-disk size: 31998.3 KB)
+0011.270 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 9600 files added (on-disk size: 31998.3 KB)
+0011.273 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (5.9 MB, 13972 files batched, 1001 (9623) added so far); re-opening (prior size: 31998.3 KB)
+0011.707 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 9700 files added (on-disk size: 34062.2 KB)
+0011.712 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 9800 files added (on-disk size: 34062.2 KB)
+0011.720 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 9900 files added (on-disk size: 34062.2 KB)
+0011.725 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 10000 files added (on-disk size: 34062.2 KB)
+0011.727 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 10100 files added (on-disk size: 34062.2 KB)
+0011.731 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 10200 files added (on-disk size: 34062.2 KB)
+0011.734 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 10300 files added (on-disk size: 34062.2 KB)
+0011.738 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 10400 files added (on-disk size: 34062.2 KB)
+0011.741 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 10500 files added (on-disk size: 34062.2 KB)
+0011.743 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 10600 files added (on-disk size: 34062.2 KB)
+0011.747 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (13.6 MB, 13972 files batched, 1001 (10624) added so far); re-opening (prior size: 34062.2 KB)
+0012.845 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 10700 files added (on-disk size: 39315.1 KB)
+0012.849 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 10800 files added (on-disk size: 39315.1 KB)
+0012.852 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 10900 files added (on-disk size: 39315.1 KB)
+0012.856 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 11000 files added (on-disk size: 39315.1 KB)
+0012.860 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 11100 files added (on-disk size: 39315.1 KB)
+0012.863 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 11200 files added (on-disk size: 39315.1 KB)
+0012.867 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 11300 files added (on-disk size: 39315.1 KB)
+0012.870 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 11400 files added (on-disk size: 39315.1 KB)
+0012.873 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 11500 files added (on-disk size: 39315.1 KB)
+0012.877 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 11600 files added (on-disk size: 39315.1 KB)
+0012.879 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (28.4 MB, 13972 files batched, 1001 (11625) added so far); re-opening (prior size: 39315.1 KB)
+0014.969 (0) backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: size is now: 46.40 MB
+0014.978 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 11700 files added (on-disk size: 47510.2 KB)
+0014.983 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 11800 files added (on-disk size: 47510.2 KB)
+0014.988 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 11900 files added (on-disk size: 47510.2 KB)
+0014.992 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 12000 files added (on-disk size: 47510.2 KB)
+0014.997 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 12100 files added (on-disk size: 47510.2 KB)
+0015.002 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 12200 files added (on-disk size: 47510.2 KB)
+0015.007 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 12300 files added (on-disk size: 47510.2 KB)
+0015.012 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 12400 files added (on-disk size: 47510.2 KB)
+0015.017 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 12500 files added (on-disk size: 47510.2 KB)
+0015.023 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 12600 files added (on-disk size: 47510.2 KB)
+0015.027 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (2.3 MB, 13972 files batched, 1001 (12626) added so far); re-opening (prior size: 47510.2 KB)
+0015.777 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 12700 files added (on-disk size: 48573.1 KB)
+0015.780 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 12800 files added (on-disk size: 48573.1 KB)
+0015.784 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 12900 files added (on-disk size: 48573.1 KB)
+0015.788 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 13000 files added (on-disk size: 48573.1 KB)
+0015.791 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 13100 files added (on-disk size: 48573.1 KB)
+0015.795 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 13200 files added (on-disk size: 48573.1 KB)
+0015.798 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 13300 files added (on-disk size: 48573.1 KB)
+0015.801 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 13400 files added (on-disk size: 48573.1 KB)
+0015.803 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 13500 files added (on-disk size: 48573.1 KB)
+0015.807 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 13600 files added (on-disk size: 48573.1 KB)
+0015.810 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7.2 MB, 13972 files batched, 1001 (13627) added so far); re-opening (prior size: 48573.1 KB)
+0016.748 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 13700 files added (on-disk size: 50972.3 KB)
+0016.751 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 13800 files added (on-disk size: 50972.3 KB)
+0016.755 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip.tmp: 13900 files added (on-disk size: 50972.3 KB)
+0017.953 (0) Created plugins zip (0) - 51810.5 KB in 17.9 s (2902.2 KB/s) (sha1: 3a9f7ce8a56960ef665a6b825563a1dc7102ad65, sha256: 0c395761576174f93493d78d93a2e371a91a28a32c2ab9d1d947180d0e3f2fb5)
+0017.958 (0) Beginning creation of dump of themes (split every: 400 MB)
+0018.017 (0) Total entities for the zip file: 126 directories, 484 files (0 skipped as non-modified), 13.2 MB
+0018.021 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0018.024 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0018.027 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0018.030 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0018.608 (0) backup_2021-08-28-0739_Ocean_Protect_698d9683567f-themes.zip.tmp: size is now: 9.50 MB
+0018.734 (0) Created themes zip (0) - 9734.2 KB in 0.8 s (12606.9 KB/s) (sha1: 90e2084289e4870a25b5ae2e3a176969b13c964d, sha256: 4d4eddd98372fa1e4c9add1d27ae4db091b145e8952d229cf8612fd47217d9f2)
+0018.738 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0018.740 (0) Looking for candidates to backup in: /opt/bitnami/wordpress/wp-content/uploads
+0018.741 (0) finding files: 2021: adding to list (1)
+0018.742 (0) finding files: elementor: adding to list (2)
+0018.744 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0018.751 (0) Total entities for the zip file: 4 directories, 162 files (0 skipped as non-modified), 38.5 MB
+0018.753 (0) Zip: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0019.207 (0) backup_2021-08-28-0739_Ocean_Protect_698d9683567f-uploads.zip.tmp: size is now: 38.50 MB
+0019.678 (0) Created uploads zip (0) - 39474.7 KB in 0.9 s (42309.9 KB/s) (sha1: 82c977e3a26d080dbc1a3b50a093725030de77e9, sha256: 298cbe258299a7c535351a9867d75a32c9954345bf19c8b6b775bafecaca4182)
+0019.684 (0) Beginning backup of other directories found in the content directory (index: 0)
+0019.686 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0019.688 (0) Looking for candidates to backup in: /opt/bitnami/wordpress/wp-content
+0019.689 (0) finding files: themes: skipping: this is the themes directory
+0019.693 (0) finding files: uploads: skipping: this is the uploads directory
+0019.694 (0) finding files: languages: adding to list (1)
+0019.697 (0) finding files: index.php: adding to list (2)
+0019.698 (0) finding files: updraft: skipping: this is the updraft directory
+0019.700 (0) finding files: plugins: skipping: this is the plugins directory
+0019.702 (0) finding files: upgrade: skipping: excluded by options
+0019.707 (0) Total entities for the zip file: 1 directories, 1 files (0 skipped as non-modified), 0 MB
+0019.715 (0) backup_2021-08-28-0739_Ocean_Protect_698d9683567f-others.zip.tmp: size is now: 0.00 MB
+0019.725 (0) Created others zip (0) - 0.3 KB in 0 s (16.4 KB/s) (sha1: e6cb688d58c5c7d4fa09c3394b98492774c65128, sha256: dca60c4eb7a92fe353679d5c8fa0fedcdcd3fe737f0aee365880504eaa719153)
+0019.737 (0) Saving backup status to database (elements: 8)
+0019.743 (0) Beginning creation of database dump (WordPress DB)
+0019.746 (0) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0019.760 (0) Table wp_options: Total expected rows (approximate): 234
+0019.850 (0) Table wp_options: Rows added in this batch (next record: 638): 233 (uncompressed bytes in this segment=1435194) in 0.09 seconds
+0019.861 (0) Table wp_options: finishing file(s) (2, 275.4 KB)
+0019.864 (0) Table wp_users: Total expected rows (approximate): 1
+0019.867 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1334) in 0.00 seconds
+0019.874 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0019.878 (0) Table wp_usermeta: Total expected rows (approximate): 24
+0019.888 (0) Table wp_usermeta: Rows added in this batch (next record: 24): 24 (uncompressed bytes in this segment=3421) in 0.01 seconds
+0019.896 (0) Table wp_usermeta: finishing file(s) (2, 1.5 KB)
+0019.900 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0019.906 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=684) in 0.00 seconds
+0019.917 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0019.921 (0) Table wp_comments: Total expected rows (approximate): 1
+0019.927 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2104) in 0.00 seconds
+0019.936 (0) Table wp_comments: finishing file(s) (2, 0.7 KB)
+0019.938 (0) Table wp_links: Total expected rows (approximate): 0
+0019.945 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1266) in 0.00 seconds
+0019.954 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0019.958 (0) Table wp_postmeta: Total expected rows (approximate): 2432
+0020.240 (0) Table wp_postmeta: Rows added in this batch (next record: 2834): 2450 (uncompressed bytes in this segment=4698754) in 0.28 seconds
+0020.251 (0) Table wp_postmeta: finishing file(s) (2, 1194.9 KB)
+0020.257 (0) Table wp_posts: Total expected rows (approximate): 416
+0020.581 (0) Table wp_posts: Rows added in this batch (next record: 426): 393 (uncompressed bytes in this segment=14519212) in 0.32 seconds
+0020.592 (0) Table wp_posts: finishing file(s) (2, 1684.7 KB)
+0020.596 (0) Table wp_term_relationships: Total expected rows (approximate): 6
+0020.601 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 6 (uncompressed bytes in this segment=762) in 0.00 seconds
+0020.608 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0020.611 (0) Table wp_term_taxonomy: Total expected rows (approximate): 2
+0020.621 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=939) in 0.01 seconds
+0020.629 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0020.634 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0020.642 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=657) in 0.01 seconds
+0020.651 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0020.658 (0) Table wp_terms: Total expected rows (approximate): 2
+0020.664 (0) Table wp_terms: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=747) in 0.00 seconds
+0020.669 (0) Table wp_terms: finishing file(s) (2, 0.4 KB)
+0020.673 (0) backup_2021-08-28-0739_Ocean_Protect_698d9683567f-db-table-wp_options.table.tmpr639.gz (1/12/fopen): adding to final database dump
+0020.678 (0) backup_2021-08-28-0739_Ocean_Protect_698d9683567f-db-table-wp_options.table.gz (2/12/fopen): adding to final database dump
+0020.680 (0) backup_2021-08-28-0739_Ocean_Protect_698d9683567f-db-table-wp_users.table.tmpr2.gz (3/12/fopen): adding to final database dump
+0020.681 (0) backup_2021-08-28-0739_Ocean_Protect_698d9683567f-db-table-wp_users.table.gz (4/12/fopen): adding to final database dump
+0020.682 (0) backup_2021-08-28-0739_Ocean_Protect_698d9683567f-db-table-wp_usermeta.table.tmpr25.gz (5/12/fopen): adding to final database dump
+0020.684 (0) backup_2021-08-28-0739_Ocean_Protect_698d9683567f-db-table-wp_usermeta.table.gz (6/12/fopen): adding to final database dump
+0020.685 (0) backup_2021-08-28-0739_Ocean_Protect_698d9683567f-db-table-wp_commentmeta.table.tmpr0.gz (7/12/fopen): adding to final database dump
+0020.688 (0) backup_2021-08-28-0739_Ocean_Protect_698d9683567f-db-table-wp_commentmeta.table.gz (8/12/fopen): adding to final database dump
+0020.690 (0) backup_2021-08-28-0739_Ocean_Protect_698d9683567f-db-table-wp_comments.table.tmpr2.gz (9/12/fopen): adding to final database dump
+0020.692 (0) backup_2021-08-28-0739_Ocean_Protect_698d9683567f-db-table-wp_comments.table.gz (10/12/fopen): adding to final database dump
+0020.694 (0) backup_2021-08-28-0739_Ocean_Protect_698d9683567f-db-table-wp_links.table.tmpr0.gz (11/12/fopen): adding to final database dump
+0020.696 (0) backup_2021-08-28-0739_Ocean_Protect_698d9683567f-db-table-wp_links.table.gz (12/12/fopen): adding to final database dump
+0020.697 (0) backup_2021-08-28-0739_Ocean_Protect_698d9683567f-db-table-wp_postmeta.table.tmpr2835.gz (13/12/fopen): adding to final database dump
+0020.709 (0) backup_2021-08-28-0739_Ocean_Protect_698d9683567f-db-table-wp_postmeta.table.gz (14/12/fopen): adding to final database dump
+0020.712 (0) backup_2021-08-28-0739_Ocean_Protect_698d9683567f-db-table-wp_posts.table.tmpr427.gz (15/12/fopen): adding to final database dump
+0020.729 (0) backup_2021-08-28-0739_Ocean_Protect_698d9683567f-db-table-wp_posts.table.gz (16/12/fopen): adding to final database dump
+0020.733 (0) backup_2021-08-28-0739_Ocean_Protect_698d9683567f-db-table-wp_term_relationships.table.tmpr100001.gz (17/12/fopen): adding to final database dump
+0020.734 (0) backup_2021-08-28-0739_Ocean_Protect_698d9683567f-db-table-wp_term_relationships.table.gz (18/12/fopen): adding to final database dump
+0020.737 (0) backup_2021-08-28-0739_Ocean_Protect_698d9683567f-db-table-wp_term_taxonomy.table.tmpr3.gz (19/12/fopen): adding to final database dump
+0020.737 (0) backup_2021-08-28-0739_Ocean_Protect_698d9683567f-db-table-wp_term_taxonomy.table.gz (20/12/fopen): adding to final database dump
+0020.740 (0) backup_2021-08-28-0739_Ocean_Protect_698d9683567f-db-table-wp_termmeta.table.tmpr0.gz (21/12/fopen): adding to final database dump
+0020.741 (0) backup_2021-08-28-0739_Ocean_Protect_698d9683567f-db-table-wp_termmeta.table.gz (22/12/fopen): adding to final database dump
+0020.742 (0) backup_2021-08-28-0739_Ocean_Protect_698d9683567f-db-table-wp_terms.table.tmpr3.gz (23/12/fopen): adding to final database dump
+0020.744 (0) backup_2021-08-28-0739_Ocean_Protect_698d9683567f-db-table-wp_terms.table.gz (24/12/fopen): adding to final database dump
+0020.750 (0) backup_2021-08-28-0739_Ocean_Protect_698d9683567f-db.gz: finished writing out complete database file (3160.8 KB)
+0020.811 (0) Total database tables backed up: 12 (backup_2021-08-28-0739_Ocean_Protect_698d9683567f-db.gz, size: 3236805, sha1: 2d85637183cc07e9eb059cd01e658f49c88309b2, sha256: 482d151d591718803bcecb52ee9e339406ba73e4dbed78039b3f90817e427002)
+0020.820 (0) backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0020.821 (0) backup_2021-08-28-0739_Ocean_Protect_698d9683567f-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0020.822 (0) backup_2021-08-28-0739_Ocean_Protect_698d9683567f-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0020.825 (0) backup_2021-08-28-0739_Ocean_Protect_698d9683567f-others.zip: others: This file has not yet been successfully uploaded: will queue
+0020.826 (0) backup_2021-08-28-0739_Ocean_Protect_698d9683567f-db.gz: db: This file has not yet been successfully uploaded: will queue
+0020.829 (0) Saving backup history. Total backup size: 101.7 MB
+0020.833 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0020.839 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0020.841 (0) No remote despatch: user chose no remote backup service
+0020.843 (0) Recording as successfully uploaded: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-plugins.zip
+0020.848 (0) Recording as successfully uploaded: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-themes.zip
+0020.851 (0) Recording as successfully uploaded: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-uploads.zip
+0020.857 (0) Recording as successfully uploaded: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-others.zip
+0020.861 (0) Recording as successfully uploaded: backup_2021-08-28-0739_Ocean_Protect_698d9683567f-db.gz
+0020.868 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0020.871 (0) Number of backup sets in history: 1; groups (db): 1
+0020.873 (0) Examining (for databases) backup set with group_id=0, nonce=698d9683567f, datestamp=1630136387 (Aug 28 2021 07:39:47)
+0020.874 (0) This backup set is the backup set just made, so will not be deleted.
+0020.874 (0) Number of backup sets in history: 1; groups (files): 1
+0020.877 (0) Examining (for files) backup set with nonce=698d9683567f, datestamp=1630136387 (Aug 28 2021 07:39:47)
+0020.877 (0) This backup set is the backup set just made, so will not be deleted.
+0020.878 (0) This backup set is the backup set just made, so will not be deleted.
+0020.878 (0) This backup set is the backup set just made, so will not be deleted.
+0020.878 (0) This backup set is the backup set just made, so will not be deleted.
+0020.878 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0020.881 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0020.885 (0) Resume backup (698d9683567f, 0): finish run
+0020.892 (0) Decremented the semaphore (fd) by 1
+0020.895 (0) Semaphore (fd) unlocked
+0020.898 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0020.905 (0) No email will/can be sent - the user has not configured an email address.
+0020.908 (0) The backup apparently succeeded and is now complete
