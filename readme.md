@@ -1,11 +1,5 @@
 Screenshot:
-
-
-
-
-
-
-
+![Uploading image.png…]()
 
 
 Problem statement:
