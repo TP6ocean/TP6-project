@@ -25,11 +25,9 @@ Our project will be building a webpage where the user can report instances of oc
 in past, and also create awareness to reduce the cause of ocean pollution.
 
 
-Features:
+Features(iteration1):
 
 Homepage - briefly introduce the current situation of ocean pollution
-Facts - provide some information of pollution condition in all states
-Calculator - calculate the sum of plastic garbage produced by each person yearly
 Activity - organise some volunteer activities to clean the beaches garbage
 Tips - provide some travelling tools and some cleaning tools when participating in the activities
 
@@ -56,6 +54,11 @@ HTML - build web frames such as div, p, a, h1, and so on
 
 Future Features:
 
+Iteration2 - 
+Facts - provide some information of pollution condition in all states
+Calculator - calculate the sum of plastic garbage produced by each person yearly
+
+Iteration3 - 
 Quiz - Provide some questions related to marine pollution, allowing users to learn about marine pollution by answering the questions.
 Game - Provide a game of Garbage classification so that users can learn some Garbage classification knowledge through play the game.
 Flashcard - Provide descriptions of some marine pollution terms, allowing users to learn these vocabulary in the process of guessing.
